@@ -10,13 +10,14 @@ describe('buildDepTreeFromFiles for yarn2', () => {
 
     // any sort of equality assertion runs into running out of heap memory hence we only assert against error for huge files
     expect(async () => {
-      await buildDepTreeFromFiles(
+      const depTree = await buildDepTreeFromFiles(
         rootPath,
         manifestFileFullPath,
         lockFileFullPath,
         false,
         true,
       );
+      console.log(depTree);
     }).not.toThrow();
   });
 

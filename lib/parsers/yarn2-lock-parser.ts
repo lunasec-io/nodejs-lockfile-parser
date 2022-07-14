@@ -1,7 +1,7 @@
 import { load, FAILSAFE_SCHEMA } from 'js-yaml';
 import * as yarnCore from '@yarnpkg/core';
 
-import { LockParserBase, DepMap } from './lock-parser-base';
+import {LockParserBase, DepMap, DepMapItemRequire} from './lock-parser-base';
 import {
   Dep,
   Lockfile,
@@ -14,7 +14,7 @@ import {
 import { config } from '../config';
 import { YarnLockDeps } from './yarn-lock-parser';
 import { InvalidUserInputError } from '../errors';
-import { yarnLockFileKeyNormalizer } from './yarn-utils';
+import {normalizeDepRange, parseDepName, yarnLockFileKeyNormalizer} from './yarn-utils';
 
 export interface Yarn2Lock {
   type: string;
@@ -92,7 +92,7 @@ export class Yarn2LockParser extends LockParserBase {
 
   protected getDepMap(
     lockfile: Lockfile,
-    resolutions?: ManifestDependencies,
+    manifestFile: ManifestFile,
   ): DepMap {
     const yarnLockfile = lockfile as Yarn2Lock;
     const depMap: DepMap = {};
@@ -103,19 +103,28 @@ export class Yarn2LockParser extends LockParserBase {
       const subDependencies = Object.entries({
         ...(dep.dependencies || {}),
         ...(dep.optionalDependencies || {}),
-      }).map(
-        ([key, ver]) =>
-          findResolutions(dependencies, depName, key, resolutions) ||
-          `${key}@${ver}`,
+      }).reduce(
+        (requires, [key, ver]) => {
+          const resolution = findResolutions(dependencies, depName, key, manifestFile.resolutions);
+          const name = resolution?.name || `${key}@${ver}`;
+          const requirement = resolution?.requirement || { key, range: ver };
+          return {
+            ...requires,
+            [name]: requirement,
+          }
+        }, {} as Record<string, DepMapItemRequire>
       );
+
+      const { name, range } = parseDepName(depName);
 
       depMap[depName] = {
         labels: {
           scope: Scope.prod,
         },
-        name: getName(depName),
+        name,
         requires: subDependencies,
         version: dep.version,
+        range: normalizeDepRange(range),
       };
     }
 
@@ -126,24 +135,17 @@ export class Yarn2LockParser extends LockParserBase {
     return `${dep.name}@${dep.version}`;
   }
 }
-
-function getName(depName: string) {
-  return depName.slice(0, depName.indexOf('@', 1));
-}
-
 function findResolutions(
   dependencies: YarnLockDeps,
   depName: string,
   subDepKey: string,
   resolutions?: ManifestDependencies,
-): string | undefined {
+): { name: string, requirement: DepMapItemRequire } | undefined {
   if (!resolutions) return;
 
   const resolutionKeys = Object.keys(resolutions);
 
-  const index = depName.indexOf('@', 1);
-  const name = depName.slice(0, index);
-  const version = depName.slice(index + 1);
+  const { name, range } = parseDepName(depName);
 
   const firstMatchingResolution = resolutionKeys.find((res) => {
     if (!res.endsWith(subDepKey)) {
@@ -156,7 +158,7 @@ function findResolutions(
     const specifiedParentMatchesCurrentDep = leadingPkg === name;
     const specifiedParentWithVersionMatches =
       leadingPkg.includes(name) &&
-      leadingPkg.includes(dependencies[`${name}@${version}`].version);
+      leadingPkg.includes(dependencies[`${name}@${range}`].version);
 
     return (
       noSpecifiedParent ||
@@ -166,6 +168,14 @@ function findResolutions(
   });
 
   if (resolutionKeys && firstMatchingResolution) {
-    return `${subDepKey}@${resolutions[firstMatchingResolution]}`;
+    const key = subDepKey;
+    const range = resolutions[firstMatchingResolution];
+    return {
+      name: `${subDepKey}@${resolutions[firstMatchingResolution]}`,
+      requirement: {
+        key,
+        range,
+      }
+    };
   }
 }

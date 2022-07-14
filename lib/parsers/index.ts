@@ -43,6 +43,7 @@ export interface ManifestFile {
 export interface DepTreeDep {
   name?: string; // shouldn't, but might happen
   version?: string; // shouldn't, but might happen
+  range?: string;
   dependencies?: {
     [depName: string]: DepTreeDep;
   };

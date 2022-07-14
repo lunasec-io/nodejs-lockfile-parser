@@ -11,6 +11,7 @@ import {
 import { InvalidUserInputError } from '../errors';
 import { DepMap, LockParserBase } from './lock-parser-base';
 import { config } from '../config';
+import {parseDepName} from "./yarn-utils";
 
 export type YarnLockFileTypes = LockfileType.yarn | LockfileType.yarn2;
 
@@ -84,12 +85,22 @@ export class YarnLockParser extends LockParserBase {
         ...(dep.dependencies || {}),
         ...(dep.optionalDependencies || {}),
       });
+
+      const { range } = parseDepName(depName);
+
       depMap[depName] = {
         labels: {
           scope: Scope.prod,
         },
         name: getName(depName),
-        requires: subDependencies.map(([key, ver]) => `${key}@${ver}`),
+        range,
+        requires: subDependencies.reduce((requires, [key, ver]) => ({
+          ...requires,
+          [`${key}@${ver}`]: {
+            key,
+            range: ver,
+          },
+        }), {}),
         version: dep.version,
       };
     }

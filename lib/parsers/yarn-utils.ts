@@ -7,6 +7,23 @@ const MULTIPLE_KEYS_REGEXP = / *, */g;
 export type ParseDescriptor = typeof structUtils.parseDescriptor;
 export type ParseRange = typeof structUtils.parseRange;
 
+interface ParsedDepName {
+  name: string;
+  range: string;
+}
+
+export function parseDepName(depName: string): ParsedDepName {
+  const index = depName.indexOf('@', 1);
+  return {
+    name: depName.slice(0, index),
+    range: depName.slice(index + 1),
+  };
+}
+
+export function normalizeDepRange(version: string): string {
+  return version.replace('npm:', '');
+}
+
 const keyNormalizer =
   (parseDescriptor: ParseDescriptor, parseRange: ParseRange) =>
   (rawDescriptor: string): string[] => {
