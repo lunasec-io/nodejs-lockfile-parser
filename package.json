@@ -2,6 +2,7 @@
   "name": "snyk-nodejs-lockfile-parser",
   "description": "Generate a dep tree given a lockfile",
   "main": "dist/index.js",
+  "version": "1.0.0",
   "bin": {
     "parse-nodejs-lockfile": "./bin/index.js"
   },
