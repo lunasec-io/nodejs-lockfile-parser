@@ -415,35 +415,40 @@ export abstract class LockParserBase implements LockfileParser {
       // direction is from the dependency to the package requiring it, so we are
       // looking for predecessors
       for (const subDepPath of depGraph.predecessors(depKey)) {
-        let subDep = depTrees[subDepPath];
-        if (!dep.dependencies) {
-          dep.dependencies = {};
-        }
-        if (!subDep) {
-          console.log(`Missing entry for ${subDepPath}`);
+        const getSubDep = (): DepTreeDep => {
+          const subDep = depTrees[subDepPath];
 
-          const { name, identifier } = extractNameAndIdentifier(subDepPath);
+          if (!subDep) {
+            treeSize += 1;
 
-          subDep = {
-            name: name,
-            version: identifier,
-            dependencies: {},
-            labels: {
-              missingLockFileEntry: 'true',
-            },
-          };
-
-          treeSize += 1;
-        } else {
+            const { name, identifier } = extractNameAndIdentifier(subDepPath);
+            return {
+              name: name,
+              version: identifier,
+              dependencies: {},
+              labels: {
+                missingLockFileEntry: 'true',
+              },
+            };
+          }
           treeSize += depTreesSizes[subDepPath];
+          return subDep;
+        }
+        const subDep = getSubDep();
+
+        if (!subDep.name) {
+          throw new Error(`sub-dependency name is undefined! dependency: ${dep} sub-dependency: ${subDepPath}`);
         }
 
-        const depRequirement = dep.requires[subDepPath.split('|').pop()];
+        const depRequirement = dep.requires[subDep.name];
         if (depRequirement) {
           subDep.range = depRequirement.range;
         }
 
-        dep.dependencies[subDep.name!] = subDep;
+        if (!dep.dependencies) {
+          dep.dependencies = {};
+        }
+        dep.dependencies[subDep.name] = subDep;
       }
       const depTreeDep: DepTreeDep = {
         labels: dep.labels,

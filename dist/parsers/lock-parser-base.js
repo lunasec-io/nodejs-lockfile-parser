@@ -7,11 +7,10 @@ const _toPairs = require("lodash.topairs");
 const graphlib = require("@snyk/graphlib");
 const uuid_1 = require("uuid");
 const event_loop_spinner_1 = require("event-loop-spinner");
-const baseDebug = require("debug");
 const cli_parser_utils_1 = require("../cli-parsers/cli-parser-utils");
 const _1 = require("./");
 const errors_1 = require("../errors");
-const debug = baseDebug('snyk-nodejs-parser');
+const debug = console.log;
 class LockParserBase {
     constructor(type, treeSizeLimit) {
         this.type = type;
@@ -274,29 +273,33 @@ class LockParserBase {
             // direction is from the dependency to the package requiring it, so we are
             // looking for predecessors
             for (const subDepPath of depGraph.predecessors(depKey)) {
-                let subDep = depTrees[subDepPath];
-                if (!dep.dependencies) {
-                    dep.dependencies = {};
-                }
-                if (!subDep) {
-                    debug(`Missing entry for ${subDepPath}`);
-                    const { name, identifier } = cli_parser_utils_1.extractNameAndIdentifier(subDepPath);
-                    subDep = {
-                        name: name,
-                        version: identifier,
-                        dependencies: {},
-                        labels: {
-                            missingLockFileEntry: 'true',
-                        },
-                    };
-                    treeSize += 1;
-                }
-                else {
+                const getSubDep = () => {
+                    const subDep = depTrees[subDepPath];
+                    if (!subDep) {
+                        treeSize += 1;
+                        const { name, identifier } = cli_parser_utils_1.extractNameAndIdentifier(subDepPath);
+                        return {
+                            name: name,
+                            version: identifier,
+                            dependencies: {},
+                            labels: {
+                                missingLockFileEntry: 'true',
+                            },
+                        };
+                    }
                     treeSize += depTreesSizes[subDepPath];
+                    return subDep;
+                };
+                const subDep = getSubDep();
+                if (!subDep.name) {
+                    throw new Error(`sub-dependency name is undefined! dependency: ${dep} sub-dependency: ${subDepPath}`);
                 }
-                const depRequirement = dep.requires[subDepPath];
+                const depRequirement = dep.requires[subDep.name];
                 if (depRequirement) {
                     subDep.range = depRequirement.range;
+                }
+                if (!dep.dependencies) {
+                    dep.dependencies = {};
                 }
                 dep.dependencies[subDep.name] = subDep;
             }
