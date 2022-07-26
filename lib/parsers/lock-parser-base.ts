@@ -26,7 +26,7 @@ import {
   TreeSizeLimitError,
 } from '../errors';
 
-const debug = baseDebug('snyk-nodejs-parser');
+const debug = console.log
 
 export interface PackageLockDeps {
   [depName: string]: PackageLockDep;
@@ -420,9 +420,8 @@ export abstract class LockParserBase implements LockfileParser {
         if (!dep.dependencies) {
           dep.dependencies = {};
         }
-
         if (!subDep) {
-          debug(`Missing entry for ${subDepPath}`);
+          console.log(`Missing entry for ${subDepPath}`);
 
           const { name, identifier } = extractNameAndIdentifier(subDepPath);
 
