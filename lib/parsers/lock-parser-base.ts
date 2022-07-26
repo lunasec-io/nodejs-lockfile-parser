@@ -433,11 +433,13 @@ export abstract class LockParserBase implements LockfileParser {
           }
           treeSize += depTreesSizes[subDepPath];
           return subDep;
-        }
+        };
         const subDep = getSubDep();
 
         if (!subDep.name) {
-          throw new Error(`sub-dependency name is undefined! dependency: ${dep} sub-dependency: ${subDepPath}`);
+          throw new Error(
+            `sub-dependency name is undefined! dependency: ${dep} sub-dependency: ${subDepPath}`,
+          );
         }
 
         const depRequirement = dep.requires[subDep.name];
