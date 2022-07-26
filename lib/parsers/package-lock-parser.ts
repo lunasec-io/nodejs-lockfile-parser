@@ -91,20 +91,24 @@ export class PackageLockParser extends LockParserBase {
           name: depName,
           requires: {},
           version: dep.version,
-          range: manifestFile.dependencies && manifestFile.dependencies[depName],
+          range:
+            manifestFile.dependencies && manifestFile.dependencies[depName],
         };
 
         if (dep.requires) {
-          depNode.requires = Object.entries(dep.requires).reduce((requires, entry) => {
-            const [name, range] = entry;
-            return {
-              ...requires,
-              [name]: {
-                key: name,
-                range: range,
-              },
-            }
-          }, {});
+          depNode.requires = Object.entries(dep.requires).reduce(
+            (requires, entry) => {
+              const [name, range] = entry;
+              return {
+                ...requires,
+                [name]: {
+                  key: name,
+                  range: range,
+                },
+              };
+            },
+            {},
+          );
         }
 
         const depPath: string[] = [...path, depName];

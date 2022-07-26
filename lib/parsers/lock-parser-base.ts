@@ -15,7 +15,6 @@ import {
   Lockfile,
   LockfileParser,
   LockfileType,
-  ManifestDependencies,
   ManifestFile,
   PkgTree,
   Scope,
@@ -26,7 +25,7 @@ import {
   TreeSizeLimitError,
 } from '../errors';
 
-const debug = console.log
+const debug = baseDebug('snyk-nodejs-parser');
 
 export interface PackageLockDeps {
   [depName: string]: PackageLockDep;

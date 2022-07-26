@@ -1,0 +1,1611 @@
+Info 0    Scheduled: *ensureProjectForOpenFiles*
+Info 1    response:
+    {"seq":0,"type":"response","command":"getSupportedCodeFixes","request_seq":0,"success":true,"body":["2352","1375","2345","2322","2678","2356","2362","2363","2736","2365","2367","2461","2495","2569","2549","2548","2488","2504","2339","2349","2351","2304","18004","2612","1329","7051","80004","80002","80006","80001","2713","1205","1371","2690","2420","2720","2552","2663","2662","2503","2686","2693","2683","5086","5087","2551","2724","2769","2355","2741","2739","2740","2348","2307","7016","2515","2653","17009","2377","1219","17004","1378","1312","2689","18016","1382","1381","6133","6196","6138","6192","6198","6199","6205","7027","7028","8020","2774","1308","1103","2610","2611","7034","7005","7006","7019","7033","7010","7032","7008","7046","7043","7044","7047","7048","7050","7049","7045","1064","1002","1003","1005","1006","1007","1009","1010","1011","1012","1013","1014","1015","1016","1017","1018","1019","1020","1021","1022","1023","1024","1025","1028","1029","1030","1031","1034","1035","1036","1038","1039","1040","1041","1042","1043","1044","1045","1046","1047","1048","1049","1051","1052","1053","1054","1055","1056","1057","1058","1059","1060","1061","1062","1063","1066","1068","1069","1070","1071","1079","1084","1085","1089","1090","1091","1092","1093","1094","1095","1096","1097","1098","1099","1100","1101","1102","1104","1105","1107","1108","1109","1110","1113","1114","1115","1116","1117","1118","1119","1120","1121","1123","1124","1125","1126","1127","1128","1129","1130","1131","1132","1134","1135","1136","1137","1138","1139","1140","1141","1142","1144","1146","1147","1148","1149","1155","1156","1157","1160","1161","1162","1163","1164","1165","1166","1168","1169","1170","1171","1172","1173","1174","1175","1176","1177","1178","1179","1180","1181","1182","1183","1184","1185","1186","1187","1188","1189","1190","1191","1192","1193","1194","1195","1196","1197","1198","1199","1200","1202","1203","1206","1207","1208","1210","1211","1212","1213","1214","1215","1216","1218","1220","1221","1222","1223","1224","1225","1226","1227","1228","1229","1230","1231","1232","1233","1234","1235","1236","1237","1238","1239","1240","1241","1242","1243","1244","1245","1246","1247","1248","1249","1250","1251","1252","1253","1254","1255","1256","1257","1259","1260","1261","1262","1263","1264","1300","1313","1314","1315","1316","1317","1318","1319","1320","1321","1322","1323","1324","1325","1326","1327","1328","1330","1331","1332","1333","1334","1335","1336","1337","1338","1339","1340","1342","1343","1344","1345","1346","1347","1348","1349","1351","1352","1353","1354","1355","1356","1357","1358","1359","1360","1361","1362","1363","1370","1379","1380","1383","1384","1385","1386","1387","1388","1389","2200","2201","2202","2203","2204","2205","2300","2301","2302","2303","2305","2306","2308","2309","2310","2311","2312","2313","2314","2315","2316","2317","2318","2319","2320","2321","2323","2324","2325","2326","2327","2328","2329","2330","2331","2332","2333","2334","2335","2336","2337","2338","2340","2341","2342","2343","2344","2346","2347","2350","2353","2354","2357","2358","2359","2360","2361","2364","2366","2368","2369","2370","2371","2372","2373","2374","2375","2376","2378","2379","2380","2381","2382","2383","2384","2385","2386","2387","2388","2389","2390","2391","2392","2393","2394","2395","2396","2397","2398","2399","2400","2401","2402","2403","2404","2405","2406","2407","2408","2409","2410","2411","2412","2413","2414","2415","2416","2417","2418","2419","2422","2423","2425","2426","2427","2428","2430","2431","2432","2433","2434","2435","2436","2437","2438","2439","2440","2441","2442","2443","2444","2445","2446","2447","2448","2449","2450","2451","2452","2453","2454","2455","2456","2457","2458","2459","2460","2462","2463","2464","2465","2466","2467","2468","2469","2470","2471","2472","2473","2474","2475","2476","2477","2478","2479","2480","2481","2483","2484","2487","2489","2490","2491","2492","2493","2494","2496","2497","2498","2499","2500","2501","2502","2505","2506","2507","2508","2509","2510","2511","2512","2513","2514","2516","2517","2518","2519","2520","2521","2522","2523","2524","2525","2526","2527","2528","2529","2530","2531","2532","2533","2534","2535","2536","2537","2538","2539","2540","2541","2542","2543","2544","2545","2547","2550","2553","2554","2555","2556","2557","2558","2559","2560","2561","2562","2563","2564","2565","2566","2567","2571","2572","2573","2574","2575","2576","2577","2578","2580","2581","2582","2583","2584","2585","2586","2587","2588","2589","2590","2591","2592","2593","2594","2595","2596","2597","2598","2600","2601","2602","2603","2604","2605","2606","2607","2608","2609","2613","2614","2615","2616","2617","2618","2619","2620","2621","2622","2649","2651","2652","2654","2656","2657","2658","2659","2660","2661","2664","2665","2666","2667","2668","2669","2670","2671","2672","2673","2674","2675","2676","2677","2679","2680","2681","2682","2684","2685","2687","2688","2691","2692","2694","2695","2696","2697","2698","2699","2700","2701","2702","2703","2704","2705","2706","2707","2708","2709","2710","2711","2712","2714","2715","2716","2717","2718","2719","2721","2722","2723","2725","2726","2727","2729","2730","2731","2732","2733","2734","2735","2737","2742","2743","2744","2745","2746","2747","2748","2749","2750","2751","2752","2753","2754","2755","2756","2757","2758","2759","2760","2761","2762","2763","2764","2765","2766","2767","2768","2770","2771","2772","2773","2775","2776","2777","2778","2779","2780","2781","2783","2784","2785","2786","2787","2788","2789","2790","2791","2792","2793","2794","2795","2796","4000","4002","4004","4006","4008","4010","4012","4014","4016","4019","4020","4021","4022","4023","4024","4025","4026","4027","4028","4029","4030","4031","4032","4033","4034","4035","4036","4037","4038","4039","4040","4041","4042","4043","4044","4045","4046","4047","4048","4049","4050","4051","4052","4053","4054","4055","4056","4057","4058","4059","4060","4061","4062","4063","4064","4065","4066","4067","4068","4069","4070","4071","4072","4073","4074","4075","4076","4077","4078","4081","4082","4083","4090","4091","4092","4094","4095","4096","4097","4098","4099","4100","4101","4102","4103","4104","4105","4106","4107","4108","4109","4110","5001","5009","5010","5012","5014","5023","5024","5025","5033","5042","5047","5048","5051","5052","5053","5054","5055","5056","5057","5058","5059","5061","5062","5063","5064","5065","5066","5067","5068","5069","5070","5071","5072","5073","5074","5075","5076","5077","5078","5079","5080","5081","5082","5083","5084","5085","5088","5089","5090","6044","6045","6046","6048","6049","6050","6051","6053","6054","6059","6064","6082","6103","6114","6131","6137","6140","6142","6188","6189","6200","6202","6229","6230","6231","6232","6233","6234","6236","6238","6304","6305","6306","6307","6308","6309","6310","6369","6370","6377","6379","6504","7009","7011","7013","7014","7015","7017","7018","7020","7022","7023","7024","7025","7026","7029","7030","7031","7035","7036","7039","7040","7041","7042","7052","7053","7054","7055","7056","8000","8001","8002","8003","8004","8005","8006","8008","8009","8010","8011","8012","8013","8016","8017","8018","8021","8022","8023","8024","8025","8026","8027","8028","8029","8030","8031","8032","8033","8034","9002","9003","9004","9005","9006","17000","17001","17002","17003","17005","17006","17007","17008","17010","17011","17012","17013","17014","17015","17016","17017","17018","18000","18001","18002","18003","18006","18007","18009","18010","18011","18012","18013","18014","18015","18017","18018","18019","18022","18023","18024","18026","18027","18028","18029","18030","18031","18032","18033","18035","80005","80003","80008","80007"]}
+Info 2    Search path: /home/forrest/code/nodejs-lockfile-parser/test/jest
+Info 3    ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts Status: File added to open files impacted by this config file
+Info 4    ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts Status: File added to open files impacted by this config file
+Info 5    ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts Status: File added to open files impacted by this config file
+Info 6    ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts Status: File added to open files impacted by this config file
+Info 7    ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts Status: File added to open files impacted by this config file
+Info 8    For info: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts :: Config file name: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 9    Opened configuration file /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 10   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json 2000 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Config file
+Info 11   event:
+    {"seq":0,"type":"event","event":"projectLoadingStart","body":{"projectName":"/home/forrest/code/nodejs-lockfile-parser/tsconfig.json","reason":"Creating possible configured project for /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts to open"}}
+Info 12   Config: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json : {
+ "rootNames": [
+  "/home/forrest/code/nodejs-lockfile-parser/lib/config.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/get-node-runtime-version.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/index.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-types.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-utils.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/index.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-info-parser.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-list-parser.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/errors/index.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/errors/invalid-user-input-error.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/errors/out-of-sync-error.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/errors/tree-size-limit-error.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-error.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-runtime-error.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-lock-parser.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-utils.ts",
+  "/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn2-lock-parser.ts"
+ ],
+ "options": {
+  "outDir": "/home/forrest/code/nodejs-lockfile-parser/dist",
+  "pretty": true,
+  "target": 4,
+  "lib": [
+   "lib.es2017.d.ts",
+   "lib.dom.d.ts"
+  ],
+  "allowSyntheticDefaultImports": true,
+  "module": 1,
+  "sourceMap": true,
+  "declaration": true,
+  "importHelpers": true,
+  "strict": true,
+  "noImplicitAny": false,
+  "configFilePath": "/home/forrest/code/nodejs-lockfile-parser/tsconfig.json"
+ }
+}
+Info 13   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Wild card directory
+Info 14   Elapsed:: 1.9256139993667603ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Wild card directory
+Info 15   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/config.ts 500 undefined Project:  WatchType: Closed Script info
+Info 16   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/get-node-runtime-version.ts 500 undefined Project:  WatchType: Closed Script info
+Info 17   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/index.ts 500 undefined Project:  WatchType: Closed Script info
+Info 18   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-types.ts 500 undefined Project:  WatchType: Closed Script info
+Info 19   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-utils.ts 500 undefined Project:  WatchType: Closed Script info
+Info 20   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/index.ts 500 undefined Project:  WatchType: Closed Script info
+Info 21   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-info-parser.ts 500 undefined Project:  WatchType: Closed Script info
+Info 22   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-list-parser.ts 500 undefined Project:  WatchType: Closed Script info
+Info 23   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/index.ts 500 undefined Project:  WatchType: Closed Script info
+Info 24   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/invalid-user-input-error.ts 500 undefined Project:  WatchType: Closed Script info
+Info 25   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/out-of-sync-error.ts 500 undefined Project:  WatchType: Closed Script info
+Info 26   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/tree-size-limit-error.ts 500 undefined Project:  WatchType: Closed Script info
+Info 27   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-error.ts 500 undefined Project:  WatchType: Closed Script info
+Info 28   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-runtime-error.ts 500 undefined Project:  WatchType: Closed Script info
+Info 29   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts 500 undefined Project:  WatchType: Closed Script info
+Info 30   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts 500 undefined Project:  WatchType: Closed Script info
+Info 31   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts 500 undefined Project:  WatchType: Closed Script info
+Info 32   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-lock-parser.ts 500 undefined Project:  WatchType: Closed Script info
+Info 33   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-utils.ts 500 undefined Project:  WatchType: Closed Script info
+Info 34   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn2-lock-parser.ts 500 undefined Project:  WatchType: Closed Script info
+Info 35   Starting updateGraphWorker: Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 36   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 37   Elapsed:: 373.5054119974375ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project:  WatchType: node_modules for closed script infos in them
+Info 38   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Failed Lookup Locations
+Info 39   Elapsed:: 0.08131400123238564ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Failed Lookup Locations
+Info 40   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Failed Lookup Locations
+Info 41   Elapsed:: 0.026409000158309937ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Failed Lookup Locations
+Info 42   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Failed Lookup Locations
+Info 43   Elapsed:: 0.14299600198864937ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Failed Lookup Locations
+Info 44   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Type roots
+Info 45   Elapsed:: 0.02624800056219101ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json WatchType: Type roots
+Info 46   Finishing updateGraphWorker: Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Version: 1 structureChanged: true Elapsed: 3482.1649120002985ms
+Info 47   Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+Info 48   	Files (261)
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es5.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.dom.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/tslib/tslib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/snyk-config/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/config.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/get-node-runtime-version.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/invalid-user-input-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-runtime-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/out-of-sync-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/tree-size-limit-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/graphlib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/uuid/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/event-loop-spinner.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/semver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/parse.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/clean.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/inc.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/diff.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/major.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/minor.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/patch.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/prerelease.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rcompare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-loose.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-build.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/sort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rsort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/eq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/neq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/cmp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/coerce.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/comparator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/range.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/satisfies.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/max-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/to-comparators.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/outside.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/gtr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/ltr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/intersects.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/simplify.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/subset.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/internals/identifiers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/assert.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/async_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/buffer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/child_process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/cluster.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/console.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/crypto.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dgram.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dns.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/domain.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/fs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http2.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/https.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/inspector.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/module.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/net.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/os.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/perf_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/punycode.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/querystring.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/readline.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/repl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/stream.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/string_decoder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/timers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tls.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/trace_events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tty.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/util.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/v8.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/vm.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/wasi.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/worker_threads.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/zlib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/statUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/FakeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/copyPromise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/opendir.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/emscripten/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/makeInterface.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/sync.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/errors.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ProxiedFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/AliasFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/CwdFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/JailFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/LazyFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NoFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NodeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/PosixFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/VirtualFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipOpenFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/patchFs/patchFs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/xfs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/execUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/folderUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-limit/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/grammars/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/resolution.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/syml.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Manifest.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Cache.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MessageName.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Report.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Resolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Workspace.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Project.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Fetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/clipanion/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Installer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Linker.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Plugin.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/TelemetryManager.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/miscUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Configuration.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/formatUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/hashUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-cancelable/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@szmarczak/http-timer/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/cacheable-lookup/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/keyv/src/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/http-cache-semantics/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/responselike/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/cacheable-request/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/timed-out.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/options-to-url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/dns-ip-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/create.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/httpUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/scriptUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/semverUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/structUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/tgzUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/treeUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/LightReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ProtocolResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/StreamReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ThrowReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/VirtualFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/WorkspaceResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/YarnVersion.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn2-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/create-from-json.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/builder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/custom-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/validation-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/legacy/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-types.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-info-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-list-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/types/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__generator/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__template/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__traverse/ts4.1/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/graceful-fs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-reports/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/cleanupSemantic.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/diffLines.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/printDiffs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/jest/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-buffer/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-schema/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/keyv/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/normalize-package-data/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prettier/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prop-types/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/csstype/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/tracing.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/stack-utils/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/treeify/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs-parser/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yoga-layout/index.d.ts
+
+Info 49   -----------------------------------------------
+Info 50   event:
+    {"seq":0,"type":"event","event":"projectLoadingFinish","body":{"projectName":"/home/forrest/code/nodejs-lockfile-parser/tsconfig.json"}}
+Info 51   event:
+    {"seq":0,"type":"event","event":"telemetry","body":{"telemetryEventName":"projectInfo","payload":{"projectId":"52f728a387af80b4fe1707c2cf7c80ddd2fa52864992fb6f4c2a347e47efe459","fileStats":{"js":0,"jsSize":0,"jsx":0,"jsxSize":0,"ts":20,"tsSize":47715,"tsx":0,"tsxSize":0,"dts":241,"dtsSize":4027898,"deferred":0,"deferredSize":0},"compilerOptions":{"outDir":"","pretty":true,"target":"es2017","lib":["es2017","dom"],"allowSyntheticDefaultImports":true,"module":"commonjs","sourceMap":true,"declaration":true,"importHelpers":true,"strict":true,"noImplicitAny":false},"typeAcquisition":{"enable":false,"include":false,"exclude":false},"extends":false,"files":false,"include":true,"exclude":false,"compileOnSave":true,"configFileName":"tsconfig.json","projectType":"configured","languageServiceEnabled":true,"version":"4.1.6"}}}
+Info 52   event:
+    {"seq":0,"type":"event","event":"configFileDiag","body":{"triggerFile":"/home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts","configFile":"/home/forrest/code/nodejs-lockfile-parser/tsconfig.json","diagnostics":[]}}
+Info 53   ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 54   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/jest/tsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 55   ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 56   ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 57   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/jest/jsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 58   ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 59   ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 60   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 61   ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 62   ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 63   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 64   ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 65   ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 66   ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 67   FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/jsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 68   ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 69   ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 70   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/code/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 71   ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 72   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/code/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 73   ConfigFilePresence:: Current Watches: :: File: /home/forrest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 74   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 75   ConfigFilePresence:: Current Watches: :: File: /home/forrest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 76   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 77   ConfigFilePresence:: Current Watches: :: File: /home/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 78   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 79   ConfigFilePresence:: Current Watches: :: File: /home/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 80   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 81   ConfigFilePresence:: Current Watches: :: File: /tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 82   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 83   ConfigFilePresence:: Current Watches: :: File: /jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 84   ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 85   Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 86   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 87   Elapsed:: 0.057502999901771545ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 88   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 89   Elapsed:: 0.01142599806189537ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 90   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 91   Elapsed:: 0.01419299840927124ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 92   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/jest/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 93   Elapsed:: 1.2163859978318214ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/jest/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 94   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 95   Elapsed:: 0.113926000893116ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 96   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 97   Elapsed:: 0.07805800065398216ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 98   DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 99   Elapsed:: 0.06930100172758102ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 100  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 101  Elapsed:: 0.06559799984097481ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 102  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 103  Elapsed:: 0.0699630007147789ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/node_modules 1 undefined Project: /dev/null/inferredProject1* WatchType: Failed Lookup Locations
+Info 104  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /dev/null/inferredProject1* WatchType: Type roots
+Info 105  Elapsed:: 0.04487000033259392ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /dev/null/inferredProject1* WatchType: Type roots
+Info 106  Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 260.84303300082684ms
+Info 107  Project '/dev/null/inferredProject1*' (Inferred)
+Info 108  	Files (261)
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es5.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.dom.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/tslib/tslib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/invalid-user-input-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-runtime-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/out-of-sync-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/tree-size-limit-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/graphlib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/uuid/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/event-loop-spinner.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/semver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/parse.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/clean.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/inc.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/diff.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/major.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/minor.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/patch.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/prerelease.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rcompare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-loose.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-build.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/sort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rsort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/eq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/neq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/cmp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/coerce.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/comparator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/range.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/satisfies.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/max-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/to-comparators.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/outside.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/gtr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/ltr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/intersects.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/simplify.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/subset.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/internals/identifiers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/snyk-config/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/config.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/assert.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/async_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/buffer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/child_process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/cluster.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/console.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/crypto.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dgram.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dns.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/domain.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/fs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http2.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/https.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/inspector.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/module.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/net.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/os.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/perf_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/punycode.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/querystring.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/readline.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/repl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/stream.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/string_decoder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/timers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tls.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/trace_events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tty.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/util.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/v8.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/vm.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/wasi.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/worker_threads.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/zlib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/statUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/FakeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/copyPromise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/opendir.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/emscripten/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/makeInterface.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/sync.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/errors.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ProxiedFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/AliasFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/CwdFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/JailFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/LazyFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NoFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NodeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/PosixFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/VirtualFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipOpenFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/patchFs/patchFs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/xfs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/execUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/folderUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-limit/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/grammars/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/resolution.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/syml.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Manifest.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Cache.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MessageName.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Report.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Resolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Workspace.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Project.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Fetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/clipanion/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Installer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Linker.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Plugin.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/TelemetryManager.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/miscUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Configuration.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/formatUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/hashUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-cancelable/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@szmarczak/http-timer/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/cacheable-lookup/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/keyv/src/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/http-cache-semantics/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/responselike/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/cacheable-request/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/timed-out.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/options-to-url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/dns-ip-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/create.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/httpUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/scriptUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/semverUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/structUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/tgzUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/treeUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/LightReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ProtocolResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/StreamReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ThrowReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/VirtualFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/WorkspaceResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/YarnVersion.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn2-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/create-from-json.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/builder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/custom-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/validation-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/legacy/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-types.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-info-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-list-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/types/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__generator/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__template/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__traverse/ts4.1/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/graceful-fs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-reports/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/cleanupSemantic.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/diffLines.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/printDiffs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/jest/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-buffer/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-schema/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/keyv/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/normalize-package-data/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prettier/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prop-types/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/csstype/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/tracing.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/stack-utils/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/treeify/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs-parser/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yoga-layout/index.d.ts
+
+Info 109  -----------------------------------------------
+Info 110  FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/package.json 250 undefined Project:  WatchType: package.json file for import suggestions
+Info 111  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+Info 112  FileWatcher:: Close:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts 500 undefined Project:  WatchType: Closed Script info
+Info 113  Search path: /home/forrest/code/nodejs-lockfile-parser/lib/parsers
+Info 114  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts Status: File added to open files impacted by this config file
+Info 115  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts Status: File added to open files impacted by this config file
+Info 116  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts Status: File added to open files impacted by this config file
+Info 117  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts Status: File added to open files impacted by this config file
+Info 118  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts Status: File added to open files impacted by this config file
+Info 119  For info: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts :: Config file name: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 120  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*
+Info 121  FileWatcher:: Close:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts 500 undefined Project:  WatchType: Closed Script info
+Info 122  Search path: /home/forrest/code/nodejs-lockfile-parser/lib/parsers
+Info 123  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts Status: File added to open files impacted by this config file
+Info 124  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts Status: File added to open files impacted by this config file
+Info 125  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts Status: File added to open files impacted by this config file
+Info 126  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts Status: File added to open files impacted by this config file
+Info 127  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts Status: File added to open files impacted by this config file
+Info 128  For info: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts :: Config file name: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 129  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*
+Info 130  Search path: /home/forrest/code/nodejs-lockfile-parser/test/jest
+Info 131  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts Status: File added to open files impacted by this config file
+Info 132  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts Status: File added to open files impacted by this config file
+Info 133  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts Status: File added to open files impacted by this config file
+Info 134  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts Status: File added to open files impacted by this config file
+Info 135  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts Status: File added to open files impacted by this config file
+Info 136  For info: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts :: Config file name: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 137  event:
+    {"seq":0,"type":"event","event":"configFileDiag","body":{"triggerFile":"/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts","configFile":"/home/forrest/code/nodejs-lockfile-parser/tsconfig.json","diagnostics":[]}}
+Info 138  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 139  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 140  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 141  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 142  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts Status: Open file was set as Inferred root
+Info 143  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 144  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/code/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 145  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/code/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 146  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 147  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 148  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 149  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 150  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 151  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 152  Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 153  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 154  Elapsed:: 0.11819499731063843ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 155  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 156  Elapsed:: 0.022877000272274017ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 157  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 158  Elapsed:: 0.016630999743938446ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 159  FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/utils.ts 500 undefined Project:  WatchType: Closed Script info
+Info 160  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/jest/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 161  Elapsed:: 0.016336999833583832ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/jest/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 162  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 163  Elapsed:: 0.00705999881029129ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 164  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 165  Elapsed:: 0.005423001945018768ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 166  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 167  Elapsed:: 0.005659002810716629ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 168  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 169  Elapsed:: 0.005536999553442001ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 170  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 171  Elapsed:: 0.0052190013229846954ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/node_modules 1 undefined Project: /dev/null/inferredProject2* WatchType: Failed Lookup Locations
+Info 172  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /dev/null/inferredProject2* WatchType: Type roots
+Info 173  Elapsed:: 0.015682999044656754ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /dev/null/inferredProject2* WatchType: Type roots
+Info 174  Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true Elapsed: 275.216196000576ms
+Info 175  Project '/dev/null/inferredProject2*' (Inferred)
+Info 176  	Files (262)
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es5.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.dom.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/tslib/tslib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/invalid-user-input-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-runtime-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/out-of-sync-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/tree-size-limit-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/graphlib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/uuid/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/event-loop-spinner.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/semver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/parse.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/clean.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/inc.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/diff.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/major.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/minor.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/patch.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/prerelease.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rcompare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-loose.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-build.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/sort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rsort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/eq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/neq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/cmp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/coerce.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/comparator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/range.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/satisfies.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/max-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/to-comparators.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/outside.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/gtr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/ltr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/intersects.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/simplify.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/subset.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/internals/identifiers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/snyk-config/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/config.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/assert.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/async_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/buffer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/child_process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/cluster.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/console.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/crypto.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dgram.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dns.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/domain.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/fs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http2.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/https.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/inspector.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/module.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/net.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/os.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/perf_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/punycode.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/querystring.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/readline.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/repl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/stream.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/string_decoder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/timers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tls.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/trace_events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tty.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/util.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/v8.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/vm.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/wasi.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/worker_threads.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/zlib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/statUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/FakeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/copyPromise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/opendir.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/emscripten/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/makeInterface.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/sync.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/errors.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ProxiedFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/AliasFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/CwdFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/JailFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/LazyFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NoFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NodeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/PosixFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/VirtualFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipOpenFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/patchFs/patchFs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/xfs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/execUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/folderUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-limit/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/grammars/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/resolution.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/syml.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Manifest.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Cache.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MessageName.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Report.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Resolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Workspace.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Project.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Fetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/clipanion/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Installer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Linker.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Plugin.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/TelemetryManager.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/miscUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Configuration.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/formatUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/hashUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-cancelable/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@szmarczak/http-timer/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/cacheable-lookup/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/keyv/src/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/http-cache-semantics/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/responselike/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/cacheable-request/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/timed-out.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/options-to-url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/dns-ip-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/create.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/httpUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/scriptUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/semverUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/structUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/tgzUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/treeUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/LightReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ProtocolResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/StreamReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ThrowReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/VirtualFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/WorkspaceResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/YarnVersion.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn2-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/create-from-json.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/builder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/custom-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/validation-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/legacy/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-types.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-info-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-list-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/test/utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/types/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__generator/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__template/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__traverse/ts4.1/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/graceful-fs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-reports/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/cleanupSemantic.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/diffLines.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/printDiffs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/jest/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-buffer/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-schema/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/keyv/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/normalize-package-data/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prettier/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prop-types/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/csstype/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/tracing.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/stack-utils/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/treeify/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs-parser/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yoga-layout/index.d.ts
+
+Info 177  -----------------------------------------------
+Info 178  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject2*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject2*
+Info 179  FileWatcher:: Close:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts 500 undefined Project:  WatchType: Closed Script info
+Info 180  Search path: /home/forrest/code/nodejs-lockfile-parser/lib/parsers
+Info 181  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts Status: File added to open files impacted by this config file
+Info 182  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts Status: File added to open files impacted by this config file
+Info 183  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts Status: File added to open files impacted by this config file
+Info 184  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/lib/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts Status: File added to open files impacted by this config file
+Info 185  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts Status: File added to open files impacted by this config file
+Info 186  For info: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts :: Config file name: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 187  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject2*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+Info 188  Starting updateGraphWorker: Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 189  Finishing updateGraphWorker: Project: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Version: 2 structureChanged: false Elapsed: 66.32848099991679ms
+Info 190  Different program with same set of files:: structureIsReused:: 2
+Info 191  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":11,"success":true,"performanceData":{"updateGraphDurationMs":66.32848099991679},"body":[]}
+Info 192  Running: *ensureProjectForOpenFiles*
+Info 193  Before ensureProjectForOpenFiles:
+Info 194  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject2*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+Info 195  Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 196  Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 17.150199998170137ms
+Info 197  Different program with same set of files:: structureIsReused:: 2
+Info 198  Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 199  Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false Elapsed: 16.670370999723673ms
+Info 200  Different program with same set of files:: structureIsReused:: 2
+Info 201  After ensureProjectForOpenFiles:
+Info 202  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject2*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*
+Info 203  got projects updated in background, updating diagnostics for /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts
+Info 204  event:
+    {"seq":0,"type":"event","event":"projectsUpdatedInBackground","body":{"openFiles":["/home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts","/home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts","/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts","/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts","/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts"]}}
+Info 205  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":12,"success":true,"body":[]}
+Info 206  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":13,"success":true,"body":[{"start":{"line":1,"offset":29},"end":{"line":1,"offset":47},"text":"Could not find a declaration file for module 'lodash.clonedeep'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/lodash.clonedeep/index.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/lodash.clonedeep` if it exists or add a new declaration (.d.ts) file containing `declare module 'lodash.clonedeep';`","code":7016,"category":"suggestion"},{"start":{"line":2,"offset":27},"end":{"line":2,"offset":43},"text":"Could not find a declaration file for module 'lodash.isempty'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/lodash.isempty/index.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/lodash.isempty` if it exists or add a new declaration (.d.ts) file containing `declare module 'lodash.isempty';`","code":7016,"category":"suggestion"},{"start":{"line":3,"offset":27},"end":{"line":3,"offset":43},"text":"Could not find a declaration file for module 'lodash.topairs'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/lodash.topairs/index.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/lodash.topairs` if it exists or add a new declaration (.d.ts) file containing `declare module 'lodash.topairs';`","code":7016,"category":"suggestion"},{"start":{"line":7,"offset":28},"end":{"line":7,"offset":35},"text":"Could not find a declaration file for module 'debug'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/debug/src/index.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/debug` if it exists or add a new declaration (.d.ts) file containing `declare module 'debug';`","code":7016,"category":"suggestion"},{"start":{"line":228,"offset":7},"end":{"line":228,"offset":11},"text":"Parameter 'node' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":231,"offset":7},"end":{"line":231,"offset":15},"text":"Parameter 'nodeCopy' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":298,"offset":5},"end":{"line":298,"offset":13},"text":"Parameter 'nodeFrom' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":299,"offset":5},"end":{"line":299,"offset":11},"text":"Parameter 'nodeTo' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":301,"offset":5},"end":{"line":301,"offset":13},"text":"Parameter 'depGraph' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":390,"offset":5},"end":{"line":390,"offset":13},"text":"Parameter 'depGraph' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":471,"offset":5},"end":{"line":471,"offset":13},"text":"'lockfile' is declared but its value is never read.","code":6133,"category":"suggestion","reportsUnnecessary":true},{"start":{"line":472,"offset":5},"end":{"line":472,"offset":17},"text":"'manifestFile' is declared but its value is never read.","code":6133,"category":"suggestion","reportsUnnecessary":true},{"start":{"line":478,"offset":27},"end":{"line":478,"offset":30},"text":"'dep' is declared but its value is never read.","code":6133,"category":"suggestion","reportsUnnecessary":true}]}
+Info 207  Search path: /home/forrest/code/nodejs-lockfile-parser/test/lib
+Info 208  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/lib/tsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts Status: File added to open files impacted by this config file
+Info 209  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/lib/jsconfig.json Currently impacted open files: RootsOfInferredProjects:  OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts Status: File added to open files impacted by this config file
+Info 210  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts Status: File added to open files impacted by this config file
+Info 211  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts Status: File added to open files impacted by this config file
+Info 212  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts Status: File added to open files impacted by this config file
+Info 213  For info: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts :: Config file name: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 214  event:
+    {"seq":0,"type":"event","event":"configFileDiag","body":{"triggerFile":"/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts","configFile":"/home/forrest/code/nodejs-lockfile-parser/tsconfig.json","diagnostics":[]}}
+Info 215  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/lib/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 216  FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/lib/tsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 217  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/lib/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 218  ConfigFilePresence:: Current Watches: :: File: /home/forrest/code/nodejs-lockfile-parser/test/lib/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 219  FileWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/lib/jsconfig.json 2000 undefined Project:  WatchType: Config file for the inferred project root
+Info 220  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/lib/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Updated the callback
+Info 221  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 222  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 223  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts Status: Open file was set as Inferred root
+Info 224  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 225  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/code/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 226  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/code/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 227  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 228  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/forrest/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 229  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 230  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /home/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 231  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 232  ConfigFilePresence:: Current Watches: Noop Config file for the inferred project root:: File: /jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles:  Status: Open file was set as Inferred root
+Info 233  Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 234  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 235  Elapsed:: 0.06295299902558327ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser 0 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 236  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 237  Elapsed:: 0.03070700168609619ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 238  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 239  Elapsed:: 0.013948999345302582ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 240  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/lib/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 241  Elapsed:: 0.1535940021276474ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/lib/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 242  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 243  Elapsed:: 0.005125001072883606ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 244  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 245  Elapsed:: 0.00465799868106842ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 246  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 247  Elapsed:: 0.00367099791765213ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 248  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 249  Elapsed:: 0.0036589987576007843ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/errors/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 250  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 251  Elapsed:: 0.003794003278017044ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/node_modules 1 undefined Project: /dev/null/inferredProject3* WatchType: Failed Lookup Locations
+Info 252  DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /dev/null/inferredProject3* WatchType: Type roots
+Info 253  Elapsed:: 0.015945997089147568ms DirectoryWatcher:: Added:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/node_modules/@types 1 undefined Project: /dev/null/inferredProject3* WatchType: Type roots
+Info 254  Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 1 structureChanged: true Elapsed: 342.5105329975486ms
+Info 255  Project '/dev/null/inferredProject3*' (Inferred)
+Info 256  	Files (262)
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es5.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.dom.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.core.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.collection.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.generator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.iterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.proxy.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.reflect.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2016.array.include.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.object.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.string.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.promise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2018.regexp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.es2020.bigint.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/typescript/lib/lib.esnext.intl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/tslib/tslib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/test/utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/snyk-config/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/config.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/invalid-user-input-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-runtime-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/out-of-sync-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/tree-size-limit-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/unsupported-error.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/errors/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/graphlib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/uuid/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/event-loop-spinner.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/event-loop-spinner/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/semver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/parse.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/clean.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/inc.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/diff.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/major.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/minor.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/patch.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/prerelease.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rcompare.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-loose.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/compare-build.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/sort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/rsort.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lt.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/eq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/neq.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/gte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/lte.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/cmp.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/coerce.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/comparator.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/classes/range.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/functions/satisfies.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/max-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-satisfying.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/to-comparators.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/min-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/valid.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/outside.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/gtr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/ltr.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/intersects.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/simplify.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/ranges/subset.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/internals/identifiers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/semver/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/assert.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/async_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/buffer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/child_process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/cluster.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/console.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/crypto.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dgram.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/dns.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/domain.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/fs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/http2.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/https.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/inspector.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/module.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/net.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/os.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/perf_hooks.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/process.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/punycode.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/querystring.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/readline.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/repl.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/stream.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/string_decoder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/timers.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tls.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/trace_events.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/tty.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/util.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/v8.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/vm.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/wasi.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/worker_threads.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/zlib.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/globals.global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/node/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/constants.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/path.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/statUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/FakeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/copyPromise.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/algorithms/opendir.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/emscripten/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/makeInterface.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/libzip/lib/sync.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/errors.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ProxiedFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/AliasFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/CwdFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/JailFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/LazyFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NoFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/NodeFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/PosixFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/VirtualFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/ZipOpenFS.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/patchFs/patchFs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/xfs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/fslib/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/execUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/folderUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-limit/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/grammars/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/shell.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/resolution.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/syml.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/parsers/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Manifest.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Cache.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MessageName.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Report.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Resolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Workspace.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Project.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Fetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/MultiResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/clipanion/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Installer.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Linker.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Plugin.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/TelemetryManager.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/miscUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/Configuration.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/formatUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/hashUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/p-cancelable/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@szmarczak/http-timer/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/cacheable-lookup/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/keyv/src/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/http-cache-semantics/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/responselike/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/cacheable-request/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/timed-out.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/options-to-url.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/utils/dns-ip-version.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/as-promise/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/create.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/got/dist/source/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/httpUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/scriptUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/semverUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/structUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/tgzUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/treeUtils.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/LightReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ProtocolResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/StreamReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/ThrowReport.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/VirtualFetcher.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/WorkspaceResolver.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/YarnVersion.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@yarnpkg/core/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-utils.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/yarn2-lock-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/create-from-json.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/builder.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/custom-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/validation-error.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/core/errors/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/legacy/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@snyk/dep-graph/dist/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/cli-parser-types.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-info-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/yarn-list-parser.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/cli-parsers/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/lib/index.ts
+	/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/types/lib/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__generator/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@babel/parser/typings/babel-parser.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__template/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__traverse/ts4.1/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/babel__core/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/graceful-fs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-coverage/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-lib-report/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/istanbul-reports/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/cleanupSemantic.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/diffLines.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/printDiffs.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/jest-diff/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/types.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/pretty-format/build/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/jest/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-buffer/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/json-schema/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/keyv/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/normalize-package-data/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prettier/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/prop-types/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/global.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/csstype/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/tracing.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/react/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/scheduler/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/stack-utils/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/treeify/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs-parser/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yargs/index.d.ts
+	/home/forrest/code/nodejs-lockfile-parser/node_modules/@types/yoga-layout/index.d.ts
+
+Info 257  -----------------------------------------------
+Info 258  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject2*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject3*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*,/dev/null/inferredProject3*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*,/dev/null/inferredProject3*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*,/dev/null/inferredProject3*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject3*
+Info 259  event:
+    {"seq":0,"type":"event","event":"syntaxDiag","body":{"file":"/home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts","diagnostics":[]}}
+Info 260  Starting updateGraphWorker: Project: /dev/null/inferredProject3*
+Info 261  Finishing updateGraphWorker: Project: /dev/null/inferredProject3* Version: 2 structureChanged: false Elapsed: 24.84621600061655ms
+Info 262  Different program with same set of files:: structureIsReused:: 2
+Info 263  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":16,"success":true,"performanceData":{"updateGraphDurationMs":24.84621600061655},"body":[]}
+Info 264  event:
+    {"seq":0,"type":"event","event":"semanticDiag","body":{"file":"/home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts","diagnostics":[]}}
+Info 265  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":17,"success":true,"body":[]}
+Info 266  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":18,"success":true,"body":[{"start":{"line":4,"offset":22},"end":{"line":4,"offset":27},"text":"Could not find a declaration file for module 'tap'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/tap/lib/tap.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/tap` if it exists or add a new declaration (.d.ts) file containing `declare module 'tap';`","code":7016,"category":"suggestion"},{"start":{"line":127,"offset":43},"end":{"line":127,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":153,"offset":43},"end":{"line":153,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":168,"offset":59},"end":{"line":168,"offset":60},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":192,"offset":85},"end":{"line":192,"offset":86},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":209,"offset":78},"end":{"line":209,"offset":79},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"}]}
+Info 267  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":19,"success":true,"body":[]}
+Info 268  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":20,"success":true,"body":[]}
+Info 269  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":21,"success":true,"body":[{"start":{"line":4,"offset":22},"end":{"line":4,"offset":27},"text":"Could not find a declaration file for module 'tap'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/tap/lib/tap.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/tap` if it exists or add a new declaration (.d.ts) file containing `declare module 'tap';`","code":7016,"category":"suggestion"},{"start":{"line":127,"offset":43},"end":{"line":127,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":153,"offset":43},"end":{"line":153,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":168,"offset":59},"end":{"line":168,"offset":60},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":192,"offset":85},"end":{"line":192,"offset":86},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":209,"offset":78},"end":{"line":209,"offset":79},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"}]}
+Info 270  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":22,"success":true,"body":[]}
+Info 271  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":23,"success":true,"body":[]}
+Info 272  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":24,"success":true,"body":[{"start":{"line":4,"offset":22},"end":{"line":4,"offset":27},"text":"Could not find a declaration file for module 'tap'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/tap/lib/tap.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/tap` if it exists or add a new declaration (.d.ts) file containing `declare module 'tap';`","code":7016,"category":"suggestion"},{"start":{"line":127,"offset":43},"end":{"line":127,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":153,"offset":43},"end":{"line":153,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":168,"offset":59},"end":{"line":168,"offset":60},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":192,"offset":85},"end":{"line":192,"offset":86},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":209,"offset":78},"end":{"line":209,"offset":79},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"}]}
+Info 273  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":25,"success":true,"body":[]}
+Info 274  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":26,"success":true,"body":[]}
+Info 275  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":27,"success":true,"body":[{"start":{"line":4,"offset":22},"end":{"line":4,"offset":27},"text":"Could not find a declaration file for module 'tap'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/tap/lib/tap.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/tap` if it exists or add a new declaration (.d.ts) file containing `declare module 'tap';`","code":7016,"category":"suggestion"},{"start":{"line":127,"offset":43},"end":{"line":127,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":153,"offset":43},"end":{"line":153,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":168,"offset":59},"end":{"line":168,"offset":60},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":192,"offset":85},"end":{"line":192,"offset":86},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":209,"offset":78},"end":{"line":209,"offset":79},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"}]}
+Info 276  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":28,"success":true,"body":[]}
+Info 277  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":29,"success":true,"body":[]}
+Info 278  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":30,"success":true,"body":[{"start":{"line":4,"offset":22},"end":{"line":4,"offset":27},"text":"Could not find a declaration file for module 'tap'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/tap/lib/tap.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/tap` if it exists or add a new declaration (.d.ts) file containing `declare module 'tap';`","code":7016,"category":"suggestion"},{"start":{"line":127,"offset":43},"end":{"line":127,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":153,"offset":43},"end":{"line":153,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":168,"offset":59},"end":{"line":168,"offset":60},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":192,"offset":85},"end":{"line":192,"offset":86},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":209,"offset":78},"end":{"line":209,"offset":79},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"}]}
+Info 279  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":31,"success":true,"body":[]}
+Info 280  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":32,"success":true,"body":[]}
+Info 281  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":33,"success":true,"body":[{"start":{"line":4,"offset":22},"end":{"line":4,"offset":27},"text":"Could not find a declaration file for module 'tap'. '/home/forrest/code/nodejs-lockfile-parser/node_modules/tap/lib/tap.js' implicitly has an 'any' type.\n  Try `npm i --save-dev @types/tap` if it exists or add a new declaration (.d.ts) file containing `declare module 'tap';`","code":7016,"category":"suggestion"},{"start":{"line":127,"offset":43},"end":{"line":127,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":153,"offset":43},"end":{"line":153,"offset":44},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":168,"offset":59},"end":{"line":168,"offset":60},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":192,"offset":85},"end":{"line":192,"offset":86},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"},{"start":{"line":209,"offset":78},"end":{"line":209,"offset":79},"text":"Parameter 't' implicitly has an 'any' type, but a better type may be inferred from usage.","code":7044,"category":"suggestion"}]}
+Info 282  FileWatcher:: Close:: WatchInfo: /home/forrest/code/nodejs-lockfile-parser/test/utils.ts 500 undefined Project:  WatchType: Closed Script info
+Info 283  Search path: /home/forrest/code/nodejs-lockfile-parser/test
+Info 284  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/utils.ts Status: File added to open files impacted by this config file
+Info 285  ConfigFilePresence:: Current Watches: Config file for the inferred project root:: File: /home/forrest/code/nodejs-lockfile-parser/test/jsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/test/utils.ts Status: File added to open files impacted by this config file
+Info 286  ConfigFilePresence:: Current Watches: Config file:: File: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json Currently impacted open files: RootsOfInferredProjects: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts,/home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts OtherOpenFiles: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts,/home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts,/home/forrest/code/nodejs-lockfile-parser/test/utils.ts Status: File added to open files impacted by this config file
+Info 287  For info: /home/forrest/code/nodejs-lockfile-parser/test/utils.ts :: Config file name: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json
+Info 288  Project '/home/forrest/code/nodejs-lockfile-parser/tsconfig.json' (Configured)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject1*' (Inferred)
+	Files (261)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject2*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Project '/dev/null/inferredProject3*' (Inferred)
+	Files (262)
+
+-----------------------------------------------
+Open files: 
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/package-lock-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject1*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/index.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*,/dev/null/inferredProject3*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/package-lock-parser.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*,/dev/null/inferredProject3*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/jest/yarn-2-lockfile-parse.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject2*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/lib/parsers/lock-parser-base.ts ProjectRootPath: undefined
+		Projects: /home/forrest/code/nodejs-lockfile-parser/tsconfig.json,/dev/null/inferredProject1*,/dev/null/inferredProject2*,/dev/null/inferredProject3*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/lib/yarn2.test.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject3*
+	FileName: /home/forrest/code/nodejs-lockfile-parser/test/utils.ts ProjectRootPath: undefined
+		Projects: /dev/null/inferredProject2*,/dev/null/inferredProject3*
+Info 289  Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 290  Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 3 structureChanged: false Elapsed: 20.274816002696753ms
+Info 291  Different program with same set of files:: structureIsReused:: 2
+Info 292  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":36,"success":true,"performanceData":{"updateGraphDurationMs":20.274816002696753},"body":[]}
+Info 293  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":37,"success":true,"body":[]}
+Info 294  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":38,"success":true,"body":[]}
+Info 295  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":39,"success":true,"body":[]}
+Info 296  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":40,"success":true,"body":[]}
+Info 297  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":41,"success":true,"body":[]}
+Info 298  response:
+    {"seq":0,"type":"response","command":"semanticDiagnosticsSync","request_seq":42,"success":true,"body":[]}
+Info 299  response:
+    {"seq":0,"type":"response","command":"syntacticDiagnosticsSync","request_seq":43,"success":true,"body":[]}
+Info 300  response:
+    {"seq":0,"type":"response","command":"suggestionDiagnosticsSync","request_seq":44,"success":true,"body":[]}

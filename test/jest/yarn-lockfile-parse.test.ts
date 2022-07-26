@@ -1,5 +1,5 @@
-import {join} from "path";
-import {buildDepTreeFromFiles} from "../../lib";
+import { join } from 'path';
+import { buildDepTreeFromFiles } from '../../lib';
 
 describe('buildDepTreeFromFiles for yarn1', () => {
   it('should be able to parse yarn.lock file (yarn1)', async () => {
@@ -13,9 +13,9 @@ describe('buildDepTreeFromFiles for yarn1', () => {
         manifestFileFullPath,
         lockFileFullPath,
         false,
-        true
+        true,
       );
       expect(depTree).not.toBeNull();
     }).not.toThrow();
-  })
+  });
 });

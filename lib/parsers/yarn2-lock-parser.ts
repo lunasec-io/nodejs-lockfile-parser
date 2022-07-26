@@ -1,7 +1,7 @@
 import { load, FAILSAFE_SCHEMA } from 'js-yaml';
 import * as yarnCore from '@yarnpkg/core';
 
-import {LockParserBase, DepMap, DepMapItemRequire} from './lock-parser-base';
+import { LockParserBase, DepMap, DepMapItemRequire } from './lock-parser-base';
 import {
   Dep,
   Lockfile,
@@ -14,7 +14,11 @@ import {
 import { config } from '../config';
 import { YarnLockDeps } from './yarn-lock-parser';
 import { InvalidUserInputError } from '../errors';
-import {normalizeDepRange, parseDepName, yarnLockFileKeyNormalizer} from './yarn-utils';
+import {
+  normalizeDepRange,
+  parseDepName,
+  yarnLockFileKeyNormalizer,
+} from './yarn-utils';
 
 export interface Yarn2Lock {
   type: string;
@@ -90,10 +94,7 @@ export class Yarn2LockParser extends LockParserBase {
     return depTreeWithMeta;
   }
 
-  protected getDepMap(
-    lockfile: Lockfile,
-    manifestFile: ManifestFile,
-  ): DepMap {
+  protected getDepMap(lockfile: Lockfile, manifestFile: ManifestFile): DepMap {
     const yarnLockfile = lockfile as Yarn2Lock;
     const depMap: DepMap = {};
 
@@ -103,17 +104,20 @@ export class Yarn2LockParser extends LockParserBase {
       const subDependencies = Object.entries({
         ...(dep.dependencies || {}),
         ...(dep.optionalDependencies || {}),
-      }).reduce(
-        (requires, [key, ver]) => {
-          const resolution = findResolutions(dependencies, depName, key, manifestFile.resolutions);
-          const name = resolution?.name || `${key}@${ver}`;
-          const requirement = resolution?.requirement || { key, range: ver };
-          return {
-            ...requires,
-            [name]: requirement,
-          }
-        }, {} as Record<string, DepMapItemRequire>
-      );
+      }).reduce((requires, [key, ver]) => {
+        const resolution = findResolutions(
+          dependencies,
+          depName,
+          key,
+          manifestFile.resolutions,
+        );
+        const name = resolution?.name || `${key}@${ver}`;
+        const requirement = resolution?.requirement || { key, range: ver };
+        return {
+          ...requires,
+          [name]: requirement,
+        };
+      }, {} as Record<string, DepMapItemRequire>);
 
       const { name, range } = parseDepName(depName);
 
@@ -140,7 +144,7 @@ function findResolutions(
   depName: string,
   subDepKey: string,
   resolutions?: ManifestDependencies,
-): { name: string, requirement: DepMapItemRequire } | undefined {
+): { name: string; requirement: DepMapItemRequire } | undefined {
   if (!resolutions) return;
 
   const resolutionKeys = Object.keys(resolutions);
@@ -175,7 +179,7 @@ function findResolutions(
       requirement: {
         key,
         range,
-      }
+      },
     };
   }
 }
