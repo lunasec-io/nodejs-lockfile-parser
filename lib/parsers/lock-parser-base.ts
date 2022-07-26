@@ -440,7 +440,7 @@ export abstract class LockParserBase implements LockfileParser {
           treeSize += depTreesSizes[subDepPath];
         }
 
-        const depRequirement = dep.requires[subDepPath];
+        const depRequirement = dep.requires[subDepPath.split('|').pop()];
         if (depRequirement) {
           subDep.range = depRequirement.range;
         }
