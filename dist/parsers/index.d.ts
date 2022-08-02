@@ -35,7 +35,7 @@ export interface ManifestFile {
 export interface DepTreeDep {
     name?: string;
     version?: string;
-    range?: string;
+    range?: string | null;
     dependencies?: {
         [depName: string]: DepTreeDep;
     };

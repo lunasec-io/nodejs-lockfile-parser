@@ -79,6 +79,10 @@ export class PackageLockParser extends LockParserBase {
     const packageLock = lockfile as PackageLock;
     const depMap: DepMap = {};
 
+    const prodDeps = manifestFile.dependencies || {};
+    const devDeps = manifestFile.devDependencies || {};
+    const packageJsonDeps = {...prodDeps,...devDeps}
+
     const flattenLockfileRec = (
       lockfileDeps: PackageLockDeps,
       path: string[],
@@ -91,8 +95,7 @@ export class PackageLockParser extends LockParserBase {
           name: depName,
           requires: {},
           version: dep.version,
-          range:
-            manifestFile.dependencies && manifestFile.dependencies[depName],
+          range: packageJsonDeps[depName] || null,
         };
 
         if (dep.requires) {

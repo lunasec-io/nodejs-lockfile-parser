@@ -7,10 +7,11 @@ const _toPairs = require("lodash.topairs");
 const graphlib = require("@snyk/graphlib");
 const uuid_1 = require("uuid");
 const event_loop_spinner_1 = require("event-loop-spinner");
+const baseDebug = require("debug");
 const cli_parser_utils_1 = require("../cli-parsers/cli-parser-utils");
 const _1 = require("./");
 const errors_1 = require("../errors");
-const debug = console.log;
+const debug = baseDebug('snyk-nodejs-parser');
 class LockParserBase {
     constructor(type, treeSizeLimit) {
         this.type = type;

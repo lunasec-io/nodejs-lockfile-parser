@@ -35,6 +35,9 @@ class PackageLockParser extends lock_parser_base_1.LockParserBase {
     getDepMap(lockfile, manifestFile) {
         const packageLock = lockfile;
         const depMap = {};
+        const prodDeps = manifestFile.dependencies || {};
+        const devDeps = manifestFile.devDependencies || {};
+        const packageJsonDeps = Object.assign(Object.assign({}, prodDeps), devDeps);
         const flattenLockfileRec = (lockfileDeps, path) => {
             for (const [depName, dep] of Object.entries(lockfileDeps)) {
                 const depNode = {
@@ -44,7 +47,7 @@ class PackageLockParser extends lock_parser_base_1.LockParserBase {
                     name: depName,
                     requires: {},
                     version: dep.version,
-                    range: manifestFile.dependencies && manifestFile.dependencies[depName],
+                    range: packageJsonDeps[depName] || null,
                 };
                 if (dep.requires) {
                     depNode.requires = Object.entries(dep.requires).reduce((requires, entry) => {

@@ -7043,9 +7043,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"snyk-nodejs-lockfile-parser@workspace:.":
+"snyk-nodejs-lockfile-parser-lunatrace-fork@workspace:.":
   version: 0.0.0-use.local
-  resolution: "snyk-nodejs-lockfile-parser@workspace:."
+  resolution: "snyk-nodejs-lockfile-parser-lunatrace-fork@workspace:."
   dependencies:
     "@snyk/dep-graph": ^2.3.0
     "@snyk/graphlib": 2.1.9-patch.3

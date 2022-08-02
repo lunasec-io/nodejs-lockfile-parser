@@ -101,7 +101,7 @@ function findResolutions(dependencies, depName, subDepKey, resolutions) {
             requirement: {
                 key,
                 range,
-            }
+            },
         };
     }
 }
